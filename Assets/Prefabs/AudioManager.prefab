@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5069263792081179949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5069263792081179939}
+  - component: {fileID: 2539873072151740899}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5069263792081179939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5069263792081179949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2539873072151740899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5069263792081179949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430d3e15a4fc887479879033b2144873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audios:
+  - name: BGM
+    clip: {fileID: 8300000, guid: 0c55bbd03ecfe544d98e5dece8682570, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 43ce81953c430dd438c2dd759ad344c4, type: 3}
+    volume: 0.05
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: Boss_Dead
+    clip: {fileID: 8300000, guid: f16f2a6d0117bdf41900befe870e98f2, type: 3}
+    volume: 0.15
+    pitch: 0.75
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: Player_Hit
+    clip: {fileID: 8300000, guid: 5eceb5123c2a4ff4cb2fa7f09315d888, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: SpiritShift
+    clip: {fileID: 8300000, guid: fe1a6d8e579419541a291401b471a3c2, type: 3}
+    volume: 0.18
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: TheWorld
+    clip: {fileID: 8300000, guid: 61a87ca20492aae4fbbe3d191df38cc7, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: StoneHit
+    clip: {fileID: 8300000, guid: 4fd9cd7b88849904c84ca6690dbef146, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: Enemy_Hit
+    clip: {fileID: 8300000, guid: df8871ce2e7f57e4b87580bdfd83e613, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: Boss_Hit
+    clip: {fileID: 8300000, guid: 0bb4ecc7372a8ef4aaf0ccbf09c3f637, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: Slash1
+    clip: {fileID: 8300000, guid: b9106ce4cb342f74ebd94e8e22d5fdf9, type: 3}
+    volume: 0.2
+    pitch: 1.1
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: Slash2
+    clip: {fileID: 8300000, guid: b9106ce4cb342f74ebd94e8e22d5fdf9, type: 3}
+    volume: 0.25
+    pitch: 1.1
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: Click
+    clip: {fileID: 8300000, guid: cdc9f5f33b80746479e8791e7eda2593, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mute: 0
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: PlayerRun
+    clip: {fileID: 8300000, guid: 10350cab73ecbde428bf3a4085db0ebd, type: 3}
+    volume: 0.1
+    pitch: 0.8
+    loop: 1
+    source: {fileID: 0}
+    mute: 1
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: BossCharge
+    clip: {fileID: 8300000, guid: b9d0e9593af52a748b8fc0f051fec125, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mute: 1
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
+  - name: BossRun
+    clip: {fileID: 8300000, guid: 1831ba751e99b4843b606e4b54ed7dfc, type: 3}
+    volume: 0.08
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mute: 1
+    mixer: {fileID: 24300002, guid: 919e4d4aa5052da4dbba6d59446019cd, type: 2}
